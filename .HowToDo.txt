@@ -1,0 +1,7 @@
+= Testo in Related Maps =
+Si può cambiare il testo andando a modicare il file TerriaMap/lib/Views/ReletedMaps.jsx 
+Scrivendo all'interno del file in formato HTML
+
+= Aggiunta Pulsante =
+Aggiugnere <MenuItem> in TerriaMap/lib/Views/UserInterface.jsx 
+È poi possibile inserire la pagina a cui punti come nuova pagina in TerriaMap/wwwroot/
