@@ -1,16 +1,16 @@
 {
   "homeCamera": {
-    "north": 48,
-    "east": 19,
-    "south": 35,
-    "west": 6
+    "north": -8,
+    "east": 158,
+    "south": -45,
+    "west": 109
   },
   "catalog": [
     {
       "name": "Example Datasets",
       "type": "group",
       "preserveOrder": true,
-      "isOpen": false,
+      "isOpen": true,
       "items": [
         {
           "name": "Data.gov.au",
@@ -310,76 +310,6 @@
           "tilingScheme": "geographic",
           "style": "default",
           "opacity": 1
-        }
-      ]
-    }
-  ],
-  "catalog": [
-    {
-      "name": "RSE data",
-      "type": "group",
-      "preserveOrder": true,
-      "isOpen": true,
-      "items": [
-        {
-          "layers": "AQUAMAPS:hydrobasins_africa",
-          "url": "https://io.apps.fao.org/geoserver/wms",
-          "type": "wms",
-          "dataCustodian": "text",
-          "name": "FAO AQUAMAPS hydrobasins_africa",
-          "dataUrlType": "direct",
-          "dataUrl": "text",
-          "info": [
-            {
-              "name": "Licence",
-              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-            }
-          ]
-        },
-        {
-          "layers": "new_atlante_integrato:v_regioni_terria",
-          "url": "http://gis2.rse-web.it:8080/geoserver/wms",
-          "type": "wms",
-          "dataCustodian": "text",
-          "name": "Regioni tempo",
-          "dataUrlType": "wfs",
-          "dataUrl": "text",
-          "info": [
-            {
-              "name": "Licence",
-              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-            }
-          ]
-        },
-        {
-          "layers": "PRC:MONTH:MONTH",
-          "url": "https://io.apps.fao.org/geoserver/wms/AQUAMAPS/WET/v2",
-          "type": "wms",
-          "dataCustodian": "text",
-          "name": "FAO layer tempo ok",
-          "dataUrlType": "wfs",
-          "dataUrl": "text",
-          "info": [
-            {
-              "name": "Licence",
-              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-            }
-          ]
-        },
-        {
-          "layers": "topp:states",
-          "url": "http://192.168.178.5:8080/geoserver/wms",
-          "type": "wms",
-          "dataCustodian": "text",
-          "name": "Popolazione Stati USA",
-          "dataUrlType": "wfs",
-          "dataUrl": "text",
-          "info": [
-            {
-              "name": "Licence",
-              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-            }
-          ]
         }
       ]
     }
