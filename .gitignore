@@ -21,5 +21,3 @@ wwwroot/privateconfig.json
 deploy/packages/
 deploy/work/
 packages/
-
-package-lock.json
