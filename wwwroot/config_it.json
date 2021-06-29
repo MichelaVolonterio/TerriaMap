@@ -1,8 +1,8 @@
 {
     /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
     initializationUrls: [
-        "cartografia",
-        "fari_terrotptiaòo"
+        "it_cartografia",
+        "it_dati_territoriali"
     ],
     parameters: {
         googleUrlShortenerKey: null,

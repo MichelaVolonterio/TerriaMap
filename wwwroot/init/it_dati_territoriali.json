@@ -20,7 +20,7 @@
             "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
             "items": [
               {
-                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "layers": "atlante_integrato:v_province",
                 "name": "confini provinciali",
                 "type": "wms",
                 "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
@@ -354,11 +354,10 @@
                 "name": "Licence",
                 "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                 }
-            ]
-                
-            },
+              ]
+           },
               {
-                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "layers": "new_atlante_integrato:v_regioni_terria",
                 "name": "confini regionali",
                 "type": "wms",
                 "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
@@ -440,7 +439,5 @@
 
             ]
           }
-        ] 
-        }
     ]
 }
