@@ -7,11 +7,76 @@
   },
   "catalog": [
     {
-      "name": "catalogo 1",
+      "name": "michela 1",
       "type": "group",
       "preserveOrder": true,
       "isOpen": true,
       "items": [
+        {
+          "name": "fotovoltaico",
+          "type": "group",
+          "preserveOrder": true,
+          "isOpen": true,
+          "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+          "items": [
+            {
+              "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+              "name": " impianti fotovoltaici provinciali",
+              "type": "wms",
+              "description": "qui va scritta la descrizione dello strati impianti province FV \n\nquesta è una seconda riga. \n\n terza...",
+              "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+              "dataCustodian": "text",
+              "dataUrlType": "direct",
+              "dataUrl": "text",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                }
+              ]
+            },
+            {
+              "name": "altra cartella",
+              "type": "group",
+              "description": "attenzione cartella di prova",
+              "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+              "items": [
+                {
+                  "layers": "atlante_integrato:v_regioni_impianti_fotovoltaico",
+                  "name": "regioni impianti fotovoltaico",
+                  "type": "wms",
+                  "description": "qui va scritta la descrizione dello strato impianti regioni FV \n\n potenza regionale \n\n terza...",
+                  "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                  "dataCustodian": "text",
+                  "dataUrlType": "direct",
+                  "dataUrl": "text",
+                  "info": [
+                    {
+                      "name": "Licence",
+                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                    }
+                  ]
+                },
+                {
+                  "layers": "dati_condivisi:euap",
+                  "name": "EUAP",
+                  "type": "wms",
+                  "description": "qui va scritta la descrizione dello strato impianti regioni FV \n\n potenza regionale \n\n terza...",
+                  "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                  "dataCustodian": "text",
+                  "dataUrlType": "direct",
+                  "dataUrl": "text",
+                  "info": [
+                    {
+                      "name": "Licence",
+                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "layers": "AQUAMAPS:hydrobasins_africa",
           "url": "https://io.apps.fao.org/geoserver/wms",
@@ -96,13 +161,14 @@
       "isOpen": true,
       "items": [
         {
-          "layers": "primo layer",
-          "url": "https://io.apps.fao.org/geoserver/wms",
+          "layers": "new_atlante_integrato:v_comuni_atlante",
+          "url": "http://gis2.rse-web.it:8080/geoserver/wms",
           "type": "wms",
           "dataCustodian": "text",
           "name": "primo layer",
           "dataUrlType": "direct",
           "dataUrl": "text",
+          "isShown": true,
           "info": [
             {
               "name": "Licence",

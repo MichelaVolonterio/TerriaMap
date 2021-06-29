@@ -1,0 +1,446 @@
+{
+    "homeCamera": {
+      "north": 48,
+      "east": 19,
+      "south": 35,
+      "west": 6
+    },
+    "catalog": [
+      {
+        "name": "dati territoriali",
+        "type": "group",
+        "preserveOrder": true,
+        "isOpen": true,
+        "items": [
+          {
+            "name": "vincoli e aspetti ambientali",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "items": [
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini provinciali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini regionali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini comunali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "centri abitati",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "corine",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "linee batimetriche",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              }
+
+            ]
+          },
+          {
+            "name": "aspetti di valutazione dei rischi",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "items": [
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini provinciali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini regionali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini comunali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "centri abitati",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "corine",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "linee batimetriche",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              }
+
+            ]
+          },
+          {
+            "name": "popolazione residente",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "items": [
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini provinciali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini regionali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini comunali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "centri abitati",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "corine",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "linee batimetriche",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              }
+
+            ]
+          }
+        ]
+    },
+    {
+        "name": "infrastrutture di rete",
+        "type": "group",
+        "preserveOrder": true,
+        "isOpen": true,
+        "items": [
+          {
+            "name": "vincoli e aspetti ambientali",
+            "type": "wms",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+            "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+            "dataCustodian": "text",
+            "dataUrlType": "direct",
+            "dataUrl": "text",
+            "info": [
+                {
+                "name": "Licence",
+                "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                }
+            ]
+                
+            },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini regionali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "confini comunali",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "centri abitati",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "corine",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "atlante_integrato:v_province_impianti_fotovoltaico",
+                "name": "linee batimetriche",
+                "type": "wms",
+                "description": "qui va scritta la descrizione \n\nquesta è una seconda riga. \n\n terza...",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataCustodian": "text",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              }
+
+            ]
+          }
+        ] 
+        }
+    ]
+}
