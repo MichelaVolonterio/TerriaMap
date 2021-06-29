@@ -8,6 +8,7 @@ import MenuItem from "terriajs/lib/ReactViews/StandardUserInterface/customizable
 import PropTypes from "prop-types";
 import React from "react";
 import RelatedMaps from "./RelatedMaps";
+import Multienergy from "./Multienergy";
 import SplitPoint from "terriajs/lib/ReactViews/SplitPoint";
 import StandardUserInterface from "terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx";
 import version from "../../version";
@@ -34,7 +35,17 @@ export default function UserInterface(props) {
     <StandardUserInterface {...props} version={version}>
       <Menu>
         <RelatedMaps viewState={props.viewState} />
-        <MenuItem caption="About" href="about.html" key="about-link" />
+        <Multienergy viewState={props.viewState} />
+        <MenuItem
+          caption="caso_studio"
+          href="http://atlanteintegrato.rse-web.it"
+          key="about-link"
+        />
+        <MenuItem
+          caption="sankey"
+          href="http://atlanteintegrato.rse-web.it/sankey.php"
+          key="about-link"
+        />
       </Menu>
       <Nav>
         <MeasureTool terria={props.viewState.terria} key="measure-tool" />
