@@ -2,7 +2,9 @@
     /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
     initializationUrls: [
         "it_cartografia",
-        "it_dati_territoriali"
+        "it_dati_territoriali",
+        "it_risorsa",
+        "it_installato"
     ],
     parameters: {
         googleUrlShortenerKey: null,
@@ -46,7 +48,7 @@
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
         brandBarElements: [
             "",
-            "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"http://www.rse-web.it/home.page?country=ita\"><img src=\"images/logo_rse.png\" height=\"60\" title=\"Version: {{version}}\" /></a>",
             ""
         ],
         // Shown when things go wrong.
@@ -67,7 +69,7 @@
         // regionMappingDefinitionsUrl: "data/regionMapping.json"
 
         // True to display welcome message on startup.
-        // "showWelcomeMessage": false,
+        //"showWelcomeMessage": true,
 
         // True to display in-app guides.
         // "showInAppGuides": false,
