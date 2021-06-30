@@ -1,0 +1,366 @@
+{
+    "homeCamera": {
+      "north": 48,
+      "east": 19,
+      "south": 35,
+      "west": 6
+    },
+    "catalog": [
+      {
+        "name": "risorsa",
+        "type": "group",
+        "preserveOrder": true,
+        "isOpen": false,
+        "items": [
+          {
+            "name": "eolica",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "ATTENZIONE questi strati sono siti su gis.rse-web.it:8080!!!!! \n\n tra l'altro non vanno... ",
+            "items": [
+                {
+                    "layers": "vento_75",
+                    "name": "Velocita' media annua del vento a 75 m s.l.t./s.l.m.",
+                    "type": "wms",
+                    "description": "Velocita' media annua del vento a 75 m s.l.t./s.l.m. \n\n Velocità media annua del vento alla quota di 75 metri s.l.t./s.l.m. espressa in m/s.<br>Atlante Eolico Interattivo RSE</p> \n Informazioni sul layer RISORSA EOLICA </br><a href=\\\"http://atlanteeolico.rse-web.it\\\" target=\\\"_blank\\\">Atlante Eolico (ATLAEOLICO)</a>",
+                    "url": "http://gis.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "vento_100",
+                    "name": "Velocita' media annua del vento a 100 m s.l.t./s.l.m.",
+                    "type": "wms",
+                    "description": "Velocita' media annua del vento a 100 m s.l.t./s.l.m. \n\n Velocità media annua del vento alla quota di 100 metri s.l.t./s.l.m. espressa in m/s.<br>Atlante Eolico Interattivo RSE</p> \n Informazioni sul layer RISORSA EOLICA </br><a href=\\\"http://atlanteeolico.rse-web.it\\\" target=\\\"_blank\\\">Atlante Eolico (ATLAEOLICO)</a>",
+                    "url": "http://gis.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "prod_75",
+                    "name": "Producibilita' specifica a 75 m s.l.t./s.l.m.",
+                    "type": "wms",
+                    "description": "Producibilita' specifica a 75 m s.l.t./s.l.m. (MWh/MW) \n\n Producibilità specifica media annua alla quota di 75 metri s.l.t./s.l.m. espressa in MWh/MW.<br>Atlante Eolico Interattivo RSE</p> \n Informazioni sul layer RISORSA EOLICA </br><a href=\\\"http://atlanteeolico.rse-web.it\\\" target=\\\"_blank\\\">Atlante Eolico (ATLAEOLICO)</a>",
+                    "url": "http://gis.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "prod_100",
+                    "name": "Producibilita' specifica a 100 m s.l.t./s.l.m.",
+                    "type": "wms",
+                    "description": "Producibilita' specifica a 100 m s.l.t./s.l.m. (MWh/MW) \n\n Producibilità specifica media annua alla quota di 100 metri s.l.t./s.l.m. espressa in MWh/MW.<br>Atlante Eolico Interattivo RSE</p> \n Informazioni sul layer RISORSA EOLICA </br><a href=\\\"http://atlanteeolico.rse-web.it\\\" target=\\\"_blank\\\">Atlante Eolico (ATLAEOLICO)</a>",
+                    "url": "http://gis.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "idroelettrico",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "items": [
+                {
+                    "layers": "atlante_integrato:bacini_view",
+                    "name": "Idroelettrico tradizionale - potenziale massimo",
+                    "type": "wms",
+                    "description": "Idroelettrico tradizionale - potenziale massimo (GWh/anno) \n\n Le mappe del massimo potenziale idroelettrico illustrano la <b> massima energia lorda ricavabile da sfruttamento idroenergetico (GWh/anno) </b> in ogni sottobacino considerato nel territorio italiano. \n\n Il calcolo tiene conto della distribuzione spaziale della precipitazione media annua, dei coefficienti di deflusso, del rilievo topografico (DEM) e del deflusso minimo vitale (DMV) pari al 10% della portata naturale.</br><b>È importante sottolineare che il calcolo non tiene conto degli attuali usi dell’acqua (idroelettrico, irriguo, potabili, ecc.)</b> e quindi il valore complessivo della producibilità idroelettrica massima italiana risulta di circa 190 000 GWh/anno. \n\n Questo valore puramente teorico implicherebbe di poter convertire in energia elettrica tutto il potenziale idrico disponibile, ipotesi non realistica dal punto di vista sia tecnico che ambientale. Un valore plausibile del reale sfruttamento può essere considerato all’incirca il 25% della producibilità idroelettrica massima, percentuale che potrebbe essere raggiunta ed eventualmente superata con la realizzazione di impianti di generazione distribuita (mini-idroelettrico).</br></br>\n\n Per il calcolo del potenziale massimo vengono considerate due componenti:</br></br><ul><li> -la producibilità propria di bacino;</li><li> -la producibilità derivante dalle portate che proviene da monte, con salto Hmonte-Hvalle.</li></ul></br><img src=\\immagini/idro_pot_max.png\\></br><b>Le due componenti di calcolo del potenziale idroelettrico massimo</b></br></p> \n\n\n http://www.rse-web.it/prodotti/prodotto/129\\\" target=\\\"_blank\\\">Software SMART Mini-Idro</a></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</br><a href=\\\"http://www.seehydropower.eu/\\\" target=\\\"_blank\\\">SEEHydroPower</a> ",
+                    "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "availableStyles":{"name":"bacini", "title":"Idroelettrico tradizionale - potenziale massimo (GWh/anno)"},
+                    "styles":"bacini",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "atlante_integrato:bacini_view",
+                    "name": "Idroelettrico tradizionale - potenziale specifico",
+                    "type": "wms",
+                    "description": "Idroelettrico tradizionale - potenziale specifico (GWh/anno/m) \n\n Le mappe del massimo potenziale idroelettrico illustrano la <b> massima energia specifica per unità di lunghezza </b> ricavabile da sfruttamento idroenergetico (GWh/anno/m) in ogni sottobacino considerato nel territorio italiano. Il calcolo tiene conto della distribuzione spaziale della precipitazione media annua, dei coefficienti di deflusso, del rilievo topografico (DEM) e del deflusso minimo vitale (DMV) pari al 10% della portata naturale.</br></br>Il potenziale specifico considera due differenti contributi di energia:</br></br><ul><li> - la producibilità propria di bacino;</li><li> - la producibilità derivante dalle portate che proviene da monte, con salto Hmonte-Hvalle.</li></ul></br><img src=\\\"immagini/idro_pot_specifica.png\\\"></br><b>Le due componenti di calcolo del potenziale idroelettrico massimo</b></br></br></p><p align=\\\"justify\\\">L’energia proveniente dallo sfruttamento delle portate di monte viene rapportata alla distanza L, corrispondente allo sviluppo strutturale di un ipotetico impianto che preleva acqua nel punto di immissione dei bacini che confluiscono a monte e la restituisce nella sezione di chiusura del bacino in analisi; l’energia propria è invece rapportata ad una distanza equivalente, definita come la radice quadrata della superficie del bacino.</p> \n\n\n <a href=\\\"\" + url_sito + \"/documenti/Metodologia_Mappe_Producibilita_Massima_e_Residua.pdf\\\" target=\\\"_blank\\\">Metodologia per la redazione di mappe della producibilità idroelettrica a scala di bacino</a> \n\n\n <a href=\\\"http://www.rse-web.it/prodotti/prodotto/129\\\" target=\\\"_blank\\\">Software SMART Mini-Idro</a></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</br><a href=\\\"http://www.seehydropower.eu/\\\" target=\\\"_blank\\\">SEEHydroPower</a>",
+                    "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "availableStyles":{"name":"potenziale_specifico", "title":"Idroelettrico tradizionale - potenziale specifico (GWh/anno/m)"},
+                    "styles":"potenziale_specifico",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "name": "dati storici",
+                    "type": "group",
+                    "preserveOrder": true,
+                    "isOpen": true,
+                    "description": "qui si possono visionare e scaricare i dati vecchi... ",
+                    "items": [
+                        {
+                            "layers": "atlante_integrato:v_idrometri",
+                            "name": "Dati idrometrici",
+                            "type": "wms",
+                            "description": "Dati idrometrici (</font><input type=\\\"image\\\" onmouseover=\\\"bigImg(this)\\\" onmouseout=\\\"normalImg(this)\\\" src=\\\"/immagini/save.png\\\" alt=\\\"Seleziona\\\" width=\\\"10\\\" height=\\\"10\\\" onclick=\\\"seleziona_idrometri();\\\"/><a onclick=\\\"seleziona_idrometri()\\\"><font color=\\\"\" + colore_idro + \"\\\"><i> Scarico dati</i>)</font></a>",                           
+                            "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                            "dataCustodian": "text",
+                            "dataUrlType": "direct",
+                            "dataUrl": "text",
+                            "info": [
+                                {
+                                "name": "Licence",
+                                "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                                }
+                            ]
+                        },
+                        {
+                            "layers": "atlante_integrato:v_pluviometri",
+                            "name": "Dati pluviometrici",
+                            "type": "wms",
+                            "description": "Dati pluviometrici (</font><input type=\\\"image\\\" onmouseover=\\\"bigImg(this)\\\" onmouseout=\\\"normalImg(this)\\\" src=\\\"/immagini/save.png\\\" alt=\\\"Seleziona\\\" width=\\\"10\\\" height=\\\"10\\\" onclick=\\\"seleziona_pluviometri();\\\"/><a onclick=\\\"seleziona_pluviometri()\\\"><font color=\\\"\" + colore_idro + \"\\\"><i> Scarico dati</i>)</font></a> \n\n Misure pluviometriche della banca dati IDROSTAZ derivanti dai dati storici pubblicati negli annali del Servizio Idrografico</p> \n\n <a href=\\\"http://www.rse-web.it/prodotti/prodotto/129\\\" target=\\\"_blank\\\">Software SMART Mini-Idro</a></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</br><a href=\\\"http://www.seehydropower.eu/\\\" target=\\\"_blank\\\">SEEHydroPower</a>",
+                            "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                            "dataCustodian": "text",
+                            "dataUrlType": "direct",
+                            "dataUrl": "text",
+                            "info": [
+                                {
+                                "name": "Licence",
+                                "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                                }
+                            ]
+                        },
+                        {
+                            "layers": "atlante_integrato:v_stazioni",
+                            "name": "Curva di durata portate",
+                            "type": "wms",
+                            "description": "punti di calcolo delle curve di durata portate medie giornaliere \n\n Punti di calcolo di curve di durata delle portate</font>\n\n Curve di durata per la valutazione della disponibilità idrica prevedibile alla sezione di chiusura di un prefissato bacino idrografico. Sono disponibili le elaborazioni nelle seguenti zone: Abruzzo-Marche, Adamello e Orobie e Alpi Graie e Pennine</p>\n\n <a href=\\\"http://www.rse-web.it/prodotti/prodotto/129\\\" target=\\\"_blank\\\">Software SMART Mini-Idro</a> \n\n <a href=\\\"http://www.rse-web.it/prodotti/prodotto/129\\\" target=\\\"_blank\\\">Software SMART Mini-Idro</a></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</br><a href=\\\"http://www.seehydropower.eu/\\\" target=\\\"_blank\\\">SEEHydroPower</a>",
+                            "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                            "dataCustodian": "text",
+                            "dataUrlType": "direct",
+                            "dataUrl": "text",
+                            "availableStyles":{"name":"Stazioni_Mini_Idro_IT", "title":"Curva di durata portate"},
+                            "styles":"Stazioni_Mini_Idro_IT",
+                            "info": [
+                                {
+                                "name": "Licence",
+                                "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "pompaggio idroelettrico",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "items": [
+                {
+                    "layers": "atlante_integrato:v_comuni_pompaggio_trad",
+                    "name": "Pompaggio tradizionale - potenza installabile fattibile (MW)",
+                    "type": "wms",
+                    "description": "Pompaggio tradizionale - potenza installabile fattibile (MW) \n\n Potenza installabile fattibile  con tempo di ritorno dell’investimento minore di 15 anni, ottenibile mediante impianti di pompaggio idroelettrico tradizionali, tra laghi esistenti e laghi nuovi.",
+                    "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "availableStyles":{"name":"comuni_pomp_trad_pot", "title":"Pompaggio tradizionale - potenza installabile fattibile (MW)"},
+                    "styles":"comuni_pomp_trad_pot",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "atlante_integrato:v_stazioni",
+                    "name": "Curva di durata portate",
+                    "type": "wms",
+                    "description": "punti di calcolo delle curve di durata portate medie giornaliere \n\n Punti di calcolo di curve di durata delle portate</font>\n\n Curve di durata per la valutazione della disponibilità idrica prevedibile alla sezione di chiusura di un prefissato bacino idrografico. Sono disponibili le elaborazioni nelle seguenti zone: Abruzzo-Marche, Adamello e Orobie e Alpi Graie e Pennine</p>\n\n <a href=\\\"http://www.rse-web.it/prodotti/prodotto/129\\\" target=\\\"_blank\\\">Software SMART Mini-Idro</a> \n\n <a href=\\\"http://www.rse-web.it/prodotti/prodotto/129\\\" target=\\\"_blank\\\">Software SMART Mini-Idro</a></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</br><a href=\\\"http://www.seehydropower.eu/\\\" target=\\\"_blank\\\">SEEHydroPower</a>",
+                    "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "availableStyles":{"name":"Stazioni_Mini_Idro_IT", "title":"Curva di durata portate"},
+                    "styles":"Stazioni_Mini_Idro_IT",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "atlante_integrato:v_comuni_pompaggio_trad",
+                    "name": "Pompaggio tradizionale - potenza installabile fattibile (MW)",
+                    "type": "wms",
+                    "description": "Pompaggio tradizionale - potenza installabile fattibile (MW) \n\n Potenza installabile fattibile  con tempo di ritorno dell’investimento minore di 15 anni, ottenibile mediante impianti di pompaggio idroelettrico tradizionali, tra laghi esistenti e laghi nuovi.",
+                    "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "availableStyles":{"name":"comuni_pomp_trad_pot", "title":"Pompaggio tradizionale - potenza installabile fattibile (MW)"},
+                    "styles":"comuni_pomp_trad_pot",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "atlante_integrato:v_comuni_pompaggio_trad",
+                    "name": "Pompaggio tradizionale - potenza installabile fattibile (MW)",
+                    "type": "wms",
+                    "description": "Pompaggio tradizionale - potenza installabile fattibile (MW) \n\n Potenza installabile fattibile  con tempo di ritorno dell’investimento minore di 15 anni, ottenibile mediante impianti di pompaggio idroelettrico tradizionali, tra laghi esistenti e laghi nuovi.",
+                    "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "availableStyles":{"name":"comuni_pomp_trad_pot", "title":"Pompaggio tradizionale - potenza installabile fattibile (MW)"},
+                    "styles":"comuni_pomp_trad_pot",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "atlante_integrato:v_comuni_pompaggio_trad",
+                    "name": "Pompaggio tradizionale - potenza installabile fattibile (MW)",
+                    "type": "wms",
+                    "description": "Pompaggio tradizionale - potenza installabile fattibile (MW) \n\n Potenza installabile fattibile  con tempo di ritorno dell’investimento minore di 15 anni, ottenibile mediante impianti di pompaggio idroelettrico tradizionali, tra laghi esistenti e laghi nuovi.",
+                    "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "availableStyles":{"name":"comuni_pomp_trad_pot", "title":"Pompaggio tradizionale - potenza installabile fattibile (MW)"},
+                    "styles":"comuni_pomp_trad_pot",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "atlante_integrato:v_comuni_pompaggio_trad",
+                    "name": "Pompaggio tradizionale - potenza installabile fattibile (MW)",
+                    "type": "wms",
+                    "description": "Pompaggio tradizionale - potenza installabile fattibile (MW) \n\n Potenza installabile fattibile  con tempo di ritorno dell’investimento minore di 15 anni, ottenibile mediante impianti di pompaggio idroelettrico tradizionali, tra laghi esistenti e laghi nuovi.",
+                    "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "availableStyles":{"name":"comuni_pomp_trad_pot", "title":"Pompaggio tradizionale - potenza installabile fattibile (MW)"},
+                    "styles":"comuni_pomp_trad_pot",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                },
+                {
+                    "layers": "atlante_integrato:v_comuni_pompaggio_trad",
+                    "name": "Pompaggio tradizionale - potenza installabile fattibile (MW)",
+                    "type": "wms",
+                    "description": "Pompaggio tradizionale - potenza installabile fattibile (MW) \n\n Potenza installabile fattibile  con tempo di ritorno dell’investimento minore di 15 anni, ottenibile mediante impianti di pompaggio idroelettrico tradizionali, tra laghi esistenti e laghi nuovi.",
+                    "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                    "dataCustodian": "text",
+                    "dataUrlType": "direct",
+                    "dataUrl": "text",
+                    "availableStyles":{"name":"comuni_pomp_trad_pot", "title":"Pompaggio tradizionale - potenza installabile fattibile (MW)"},
+                    "styles":"comuni_pomp_trad_pot",
+                    "info": [
+                        {
+                        "name": "Licence",
+                        "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "eolica",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "items": [
+            ]
+        },
+        {
+            "name": "solare",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "items": [
+            ]
+        },
+        {
+            "name": "marina",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "items": [
+            ]
+        },
+        {
+            "name": "geotermica",
+            "type": "group",
+            "preserveOrder": true,
+            "isOpen": true,
+            "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
+            "items": [
+            ]
+        }
+        ]
+      }
+    ]
+}

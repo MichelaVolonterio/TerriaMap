@@ -28,6 +28,7 @@
                 "dataCustodian": "text",
                 "dataUrlType": "direct",
                 "dataUrl": "text",
+                "isShown": true,
                 "info": [
                   {
                     "name": "Licence",
@@ -36,7 +37,7 @@
                 ]
               },
               {
-                "layers": "new_atlante_integrato:v_province_atlante",
+                "layers": "new_atlante_integrato:v_province_terria",
                 "name": "Confini provinciali",
                 "type": "wms",
                 "description": "Limiti amministrativi provinciali\n\nquesta è una seconda riga. \n\n terza...",
@@ -52,7 +53,7 @@
                 ]
               },
               {
-                "layers": "new_atlante_integrato:v_comuni_atlante",
+                "layers": "new_atlante_integrato:v_comuni_terria",
                 "name": "Confini comunali",
                 "type": "wms",
                 "description": "Limiti amministrativi regionali. \n\n bvbbb...",
@@ -91,6 +92,7 @@
                 "url": "http://gis2.rse-web.it:8080/geoserver/wms",
                 "dataCustodian": "text",
                 "minScaleDenominator": 10000,
+                "hideLayerAfterMinScaleDenominator": true,
                 "dataUrlType": "direct",
                 "dataUrl": "text",
                 "info": [
@@ -104,7 +106,7 @@
                 "layers": "batimetria_linea",
                 "name": "linee batimetriche",
                 "type": "wms",
-                "description": "Linee batimetriche (profondita' in metri)",
+                "description": "Linee batimetriche (profondita' in metri) \n\n Punti e curve batimetriche ricavati dalle carte nautiche dell'Istituto Idrografico della Marina</p>  ",
                 "url": "http://gis2.rse-web.it:8080/geoserver/wms",
                 "dataCustodian": "text",
                 "dataUrlType": "direct",
