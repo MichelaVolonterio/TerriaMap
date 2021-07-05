@@ -237,7 +237,7 @@
                 "layers": "atlante_integrato:v_regioni_buchi_tensione",
                 "name": "Qualita' della tensione per apparecchiature non industriali (classe II)",
                 "type": "wms",
-                "description": "Numero medio regionale di buchi di Tensione MT per punto di misura equivalente nel periodo 2012-2016, ricadenti nella zona pericolosa per apparecchiature non industriali (classe II)\n\n Qualità della tensione per apparecchiature non industriali (classe II). Statistiche pluriennali relative ai buchi di tensione registrati dal sistema di monitoraggio QuEEN \n\n Informazioni sul layer Buchi di Tensione MT </br><a href=\\\"http://queen.rse-web.it\\\" target=\\\"_blank\\\">QuEEN (Qualità dell'Energia Elettrica)</a>",
+                "description": "Numero medio regionale di buchi di Tensione MT per punto di misura equivalente nel periodo 2012-2016, ricadenti nella zona pericolosa per apparecchiature non industriali (classe II)\n\n Qualità della tensione per apparecchiature non industriali (classe II). Statistiche pluriennali relative ai buchi di tensione registrati dal sistema di monitoraggio QuEEN \n\n Informazioni sul layer Buchi di Tensione MT </br><a href=\"http://queen.rse-web.it\" target=\"_blank\">QuEEN (Qualità dell'Energia Elettrica)</a>",
                 "url": "http://gis2.rse-web.it:8080/geoserver/wms",
                 "dataCustodian": "text",
                 "dataUrlType": "direct",

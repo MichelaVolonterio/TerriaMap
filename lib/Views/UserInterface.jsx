@@ -37,8 +37,8 @@ export default function UserInterface(props) {
         <RelatedMaps viewState={props.viewState} />
         <Multienergy viewState={props.viewState} />
         <MenuItem
-          caption="caso_studio"
-          href="http://atlanteintegrato.rse-web.it"
+          caption="Geoportale"
+          href="http://localhost:8081"
           key="about-link"
         />
         <MenuItem
