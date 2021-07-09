@@ -38,7 +38,8 @@ export default function UserInterface(props) {
         <Multienergy viewState={props.viewState} />
         <MenuItem
           caption="Geoportale"
-          href="http://localhost:8081"
+          //href="http://localhost:8081"
+          href="http://gis2.rse-web.it:8080/mapstore"
           key="about-link"
         />
         <MenuItem
