@@ -5,6 +5,8 @@
       "south": 35,
       "west": 6
     },
+  "baseMapName": "Positron (Light)",
+  "viewerMode":"2d",
     "catalog": [
       {
         "name": "cartografia",
