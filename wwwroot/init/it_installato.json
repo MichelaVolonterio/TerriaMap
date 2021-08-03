@@ -17,7 +17,7 @@
             "name": "eolica",
             "type": "group",
             "preserveOrder": true,
-            "isOpen": true,
+            "isOpen": false,
             "description": "Qui si puo inserire una descrizione degli strati che si trovano nel gruppo eolico tipo: \n\n Informazioni temporali avaria scala si rappresentazione territoriale riguardanti gli impianti eolico installati sul territorio italiano. \n\n Le informazioni riportate nei seguenti strati informativi sono derivate da dati GSE e da elaborazioni RSE su tali dati.",
             "items": [
             {
@@ -208,13 +208,13 @@
                 }
               ]
             }
-          ]
-        },
-        {
+            ]
+          },
+          {
             "name": "idroelettrica",
             "type": "group",
             "preserveOrder": true,
-            "isOpen": true,
+            "isOpen": false,
             "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
             "items": [
               {
@@ -497,12 +497,12 @@
                 ]
               }
             ]
-        },
-        {
+          },
+          {
             "name": "fotovoltaica",
             "type": "group",
             "preserveOrder": true,
-            "isOpen": true,
+            "isOpen": false,
             "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
             "items": [
               {
@@ -620,17 +620,17 @@
                 ]
               }
             ]
-        },
-        {
+          },
+          {
             "name": "geotermico",
             "type": "group",
             "preserveOrder": true,
-            "isOpen": true,
-            "description": "qui va scritta la descrizione degli strati del gruppo xxxx <div><img src=\"/images/geotermoelettrico_imgbing.png\" style=\"width:400px;height:300px;\"></div>",
+            "isOpen": false,
+            "description": "qui si puo inserire una descrizione degli strati del gruppo xxxx <div><img src=\"/images/geotermoelettrico_imgbing.png\" style=\"width:400px;height:300px;\"></div>",
             "items": [
               {
                 "layers": "new_atlante_integrato:v_regioni_t",
-                "name": "Impianti geotermoelettrici - Potenza effettiva installata regionale (MW)",
+                "name": "Potenza effettiva installata regionale (MW)",
                 "type": "wms",
                 "description": "Impianti geotermoelettrici - Potenza effettiva installata regionale (MW)\n\n Mappa della distribuzione regionale della potenza geotermoelettrica installata.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
                 "dataCustodian": "text",
@@ -649,7 +649,7 @@
               },
               {
                 "layers": "new_atlante_integrato:v_regioni_t",
-                "name": "Impianti geotermoelettrici - Produzione annuale regionale (GWh)",
+                "name": "Produzione annuale regionale (GWh)",
                 "type": "wms",
                 "description": "Impianti geotermoelettrici - Produzione annuale regionale (GWh)\n\n Mappa della distribuzione regionale della produzione geotermoelettrica nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
                 "dataCustodian": "text",
@@ -668,7 +668,7 @@
               },
               {
                 "layers": "new_atlante_integrato:v_regioni_t",
-                "name": "Impianti geotermoelettrici - Numero impianti regionali",
+                "name": "Numero impianti regionali",
                 "type": "wms",
                 "description": "Impianti geotermoelettrici - Numero impianti regionali\n\n Mappa della distribuzione regionale degli impianti geotermoelettrici.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
                 "dataCustodian": "text",
@@ -687,7 +687,7 @@
               },
               {
                 "layers": "new_atlante_integrato:v_province_t",
-                "name": "Impianti geotermoelettrici - Potenza effettiva installata provinciale (MW)",
+                "name": "Potenza effettiva installata provinciale (MW)",
                 "type": "wms",
                 "description": "Impianti geotermoelettrici - Potenza effettiva installata provinciale (MW)\n\n Mappa della distribuzione provinciale della potenza geotermoelettrica installata nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
                 "dataCustodian": "text",
@@ -706,7 +706,7 @@
               },
               {
                 "layers": "new_atlante_integrato:v_province_t",
-                "name": "Impianti geotermoelettrici - Produzione annuale provinciale (GWh)",
+                "name": "Produzione annuale provinciale (GWh)",
                 "type": "wms",
                 "description": "Impianti geotermoelettrici - Produzione annuale provinciale (GWh)\n\n Mappa della distribuzione provinciale della produzione annua geotermoelettrica nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
                 "dataCustodian": "text",
@@ -725,7 +725,7 @@
               },
               {
                 "layers": "new_atlante_integrato:v_province_t",
-                "name": "Impianti geotermoelettrici - Numero impianti provinciali",
+                "name": "Numero impianti provinciali",
                 "type": "wms",
                 "description": "Impianti geotermoelettrici - Numero impianti provinciali\n\n Mappa della distribuzione provinciale della numerosità degli impianti geotermoelettrici.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
                 "dataCustodian": "text",
@@ -744,9 +744,9 @@
               },
               {
                 "layers": "new_atlante_integrato:v_impianti_geotermici_comune",
-                "name": "Impianti geotermoelettrici - Numero impianti provinciali",
+                "name": "Potenza impianti geotermici (MW) - raggruppamento comunale (anno di riferimento 2018)",
                 "type": "wms",
-                "description": "Impianti geotermoelettrici - Numero impianti provinciali\n\n Numero impianti geotermici - raggruppamento comunale (anno di riferimento 2018) ",
+                "description": "Impianti geotermoelettrici - Potenza impianti geotermici (MW) - raggruppamento comunale (anno di riferimento 2018)\n\n Numero impianti geotermici - raggruppamento comunale (anno di riferimento 2018) ",
                 "dataCustodian": "text",
                 "url": "http://gis2.rse-web.it:8080/geoserver/wms",
                 "dataUrlType": "direct",
@@ -762,7 +762,7 @@
               },
               {
                 "layers": "new_atlante_integrato:v_impianti_geotermici_comune",
-                "name": "Impianti geotermoelettrici - Potenza impianti provinciali",
+                "name": "Potenza impianti provinciali geotermici (MW) - raggruppamento comunale (anno di riferimento 2018)",
                 "type": "wms",
                 "description": "Impianti geotermoelettrici - Potenza impianti provinciali\n\n Potenza impianti geotermici (MW) - raggruppamento comunale (anno di riferimento 2018)",
                 "dataCustodian": "text",
@@ -779,26 +779,292 @@
                 ]
               }
             ]
-        },
-        {
+          },
+          {
             "name": "biomasse",
             "type": "group",
             "preserveOrder": true,
-            "isOpen": true,
+            "isOpen": false,
             "description": "qui va scritta la descrizione degli strati del gruppo xxxx ",
             "items": [
               {
-                "layers": "new_atlante_integrato:v_province_t",
-                "name": "Fotovoltaico - Numero di impianti fotovoltaici provinciali",
+                "layers": "new_atlante_integrato:v_regioni_t",
+                "name": "Impianti a biomasse - Potenza effettiva installata regionale (MW)",
                 "type": "wms",
-                "description": "Fotovoltaico - Numero di impianti fotovoltaici provinciali\n\n Mappa della distribuzione regionale della potenza fotovoltaica installata nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "description": "Impianti a biomasse - Potenza effettiva installata regionale (MW)\n\n Mappa della distribuzione regionale della potenza da bioenergie installata nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
                 "dataCustodian": "text",
                 "url": "http://gis2.rse-web.it:8080/geoserver/wms",
                 "dataUrlType": "direct",
                 "dataUrl": "text",
-                "availableStyles":{"name":"so_n_impianti_prov", "title":"numero impianti fotovoltaici provinciali"},
-                "styles":"so_n_impianti_prov",
-                "parameters":{"cql_filter":"var_id=181"},
+                "availableStyles":{"name":"bi_imp_reg_potenza_installata", "title":"Potenza effettiva installata regionale (MW)"},
+                "styles":"bi_imp_reg_potenza_installata",
+                "parameters":{"cql_filter":"var_id=78"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              }, 
+              {
+                "layers": "new_atlante_integrato:v_regioni_t",
+                "name": "Impianti a biomasse - produzione effettiva regionale (GWh)",
+                "type": "wms",
+                "description": "Impianti a biomasse - produzione effettiva regionale (GWh)\n\n Mappa della distribuzione regionale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_imp_reg_produzione", "title":"produzione effettiva installata regionale (GWh)"},
+                "styles":"bi_imp_reg_produzione",
+                "parameters":{"cql_filter":"var_id=97"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_regioni_t",
+                "name": "Impianti a biomasse -  Numero Impianti Regionali",
+                "type": "wms",
+                "description": "Impianti a biomasse - Numero Impianti Regionali\n\n Mappa della distribuzione regionale del numero di impianti a bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_num_imp_reg", "title":"Numero Impianti Regionali"},
+                "styles":"bi_num_imp_reg",
+                "parameters":{"cql_filter":"var_id=201"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_regioni_t",
+                "name": "Impianti a biomasse - Produzione elettrica da biogas regionale (GWh)",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica da biogas regionale (GWh)\n\n Mappa della distribuzione regionale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_prod_el_da_biogas_reg", "title":"Produzione elettrica da biogas regionale (GWh)"},
+                "styles":"bi_prod_el_da_biogas_reg",
+                "parameters":{"cql_filter":"var_id=195"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_regioni_t",
+                "name": "Impianti a biomasse - Produzione elettrica da bioliquidi regionale (GWh)",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica da bioliquidi regionale (GWh)\n\n Mappa della distribuzione regionale della produzione elettrica da bioliquidi nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_bioliquidi_energia_reg", "title":"Produzione elettrica da bioliquidi regionale (GWh)"},
+                "styles":"bi_bioliquidi_energia_reg",
+                "parameters":{"cql_filter":"var_id=189"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_regioni_t",
+                "name": "Impianti a biomasse - Produzione elettrica da biomasse solide diverse dai rifiuti regionale (GWh) ",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica da biomasse solide diverse dai rifiuti regionale (GWh)\n\n Mappa della distribuzione regionale della potenza da bioenergie installata nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_solide_energia_reg", "title":"Produzione elettrica da biomasse solide diverse dai rifiuti regionale (GWh)"},
+                "styles":"bi_solide_energia_reg",
+                "parameters":{"cql_filter":"var_id=198"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_regioni_t",
+                "name": "Impianti a biomasse - Produzione elettrica da RU biodegradabili regionale (GWh)",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica da RU biodegradabili regionale (GWh)\n\n Mappa della distribuzione regionale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_ru_biodegradabili_energia_reg", "title":"Produzione elettrica da RU biodegradabili regionale (GWh)"},
+                "styles":"bi_ru_biodegradabili_energia_reg",
+                "parameters":{"cql_filter":"var_id=192"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_province_t",
+                "name": "Impianti a biomasse - Produzione annuale provinciale (GWh)",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione annuale provinciale (GWh)\n\n Mappa della distribuzione provinciale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_imp_prov_produzione", "title":"Produzione annuale provinciale (GWh)"},
+                "styles":"bi_imp_prov_produzione",
+                "parameters":{"cql_filter":"var_id=79"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_province_t",
+                "name": "Impianti a biomasse - Produzione elettrica provinciale da biogas in % sul totale nazionale",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica provinciale da biogas in % sul totale nazionale\n\n Mappa della distribuzione provinciale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_biogas_energia_perc_prov", "title":"Produzione elettrica provinciale da biogas in % sul totale nazionale"},
+                "styles":"bi_biogas_energia_perc_prov",
+                "parameters":{"cql_filter":"var_id=196"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_province_t",
+                "name": "Impianti a biomasse - Produzione elettrica provinciale da RU biodegradabili (GWh)",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica provinciale da RU biodegradabili (GWh)\n\n Mappa della distribuzione provinciale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_ru_biodegradabili_energia_prov", "title":"Produzione elettrica provinciale da RU biodegradabili (GWh)"},
+                "styles":"bi_ru_biodegradabili_energia_prov",
+                "parameters":{"cql_filter":"var_id=194"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_province_t",
+                "name": "Impianti a biomasse - Produzione elettrica provinciale da bioliquidi (GWh)",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica provinciale da bioliquidi (GWh)\n\n Mappa della distribuzione provinciale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_bioliquidi_energia_prov", "title":"Produzione elettrica provinciale da bioliquidi (GWh)"},
+                "styles":"bi_bioliquidi_energia_prov",
+                "parameters":{"cql_filter":"var_id=191"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_province_t",
+                "name": "Impianti a biomasse - Produzione elettrica provinciale da bioliquidi in % sul totale nazionale",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica provinciale da bioliquidi in % sul totale nazionale\n\n Mappa della distribuzione provinciale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_bioliquidi_energia_percentuale_prov", "title":"Produzione elettrica provinciale da bioliquidi in % sul totale nazionale"},
+                "styles":"bi_bioliquidi_energia_percentuale_prov",
+                "parameters":{"cql_filter":"var_id=190"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_province_t",
+                "name": "Impianti a biomasse - Produzione elettrica provinciale da biomasse solide diverse dai rifiuti (GWh)",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica provinciale da biomasse solide diverse dai rifiuti (GWh)\n\n Mappa della distribuzione provinciale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_soli_energia_prov", "title":"Produzione elettrica provinciale da biomasse solide diverse dai rifiuti (GWh)"},
+                "styles":"bi_soli_energia_prov",
+                "parameters":{"cql_filter":"var_id=200"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_province_t",
+                "name": "Impianti a biomasse - Produzione elettrica provinciale da biomasse solide diverse dai rifiuti in % sul totale nazionale",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica provinciale da biomasse solide diverse dai rifiuti in % sul totale nazionale\n\n Mappa della distribuzione provinciale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_solide_energia_perc_prov", "title":"Produzione elettrica provinciale da biomasse solide diverse dai rifiuti in % sul totale nazionale"},
+                "styles":"bi_solide_energia_perc_prov",
+                "parameters":{"cql_filter":"var_id=199"},
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "layers": "new_atlante_integrato:v_province_t",
+                "name": "Impianti a biomasse - Produzione elettrica provinciale da RU biodegradabili in % sul totale nazionale",
+                "type": "wms",
+                "description": "Impianti a biomasse - Produzione elettrica provinciale da RU biodegradabili in % sul totale nazionale\n\n Mappa della distribuzione provinciale della produzione da bioenergie nel tempo.<br> Rapporto Statistico - Energia da fonti rinnovabili - GSE</p> \n\n <a href=\"https://www.gse.it/documenti_site/Documenti GSE/Rapporti statistici/\" target=\"_blank\">GSE S.p.A., Rapporto Statistico</a>",
+                "dataCustodian": "text",
+                "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+                "dataUrlType": "direct",
+                "dataUrl": "text",
+                "availableStyles":{"name":"bi_ru_biodegradabili_energia_perc_prov", "title":"Produzione elettrica provinciale da RU biodegradabili in % sul totale nazionale"},
+                "styles":"bi_ru_biodegradabili_energia_perc_prov",
+                "parameters":{"cql_filter":"var_id=193"},
                 "info": [
                   {
                     "name": "Licence",
@@ -807,28 +1073,27 @@
                 ]
               }
             ]
-        }
+          }
         ]
       }, 
       {
-        "name": "stime energetiche",
+        "name": "consumi elettrici",
         "type": "group",
         "preserveOrder": true,
         "isOpen": false,
         "description": "comprende i dati dei consumi elettrici stimati a varie scale territoriali e temporali",
         "items": [
           {
-            "layers": "autosuff",
-            "name": "Elenco ufficiale aree protette (EUAP)",
+            "layers": "new_atlante_integrato:v_comuni_consumi",
+            "name": "Indice di autosufficienza",
             "type": "wms",
-            "description": "VI Elenco Ufficiale Aree Naturali Protette (EUAP). Istituito in base alla legge 394/91 Legge quadro sulle aree protette, l\\'elenco ufficiale attualmente in vigore è quello relativo al 6° Aggiornamento approvato con D.M. 27/04/2010 e pubblicato nel Supplemento Ordinario n. 115 alla Gazzetta Ufficiale n. 125 del 31/05/2010. In base alla legge 394/91, le aree protette sono distinte in Parchi Nazionali (PNZ), Aree Naturali Marine Protette (MAR), Parchi Naturali Statali marini (PNZ_m), Riserve Naturali Statali (RNS), Parchi e Riserve Naturali Regionali (PNR - RNR), Parchi Naturali sommersi (GAPN), Altre Aree Naturali Protette (AAPN). L\\'Elenco è stilato, e periodicamente aggiornato, dal Ministero dell\\'Ambiente e della Tutela del Territorio e del Mare - Direzione Protezione della Natura.</p>",
+            "description": "Indice di autosufficienza. Rapporto tra produzione FER comunale e consumi elettrici comunali. Anno 2015, MT e BT. Riferimento rapporto atlante integrato.\n\n <a href=\"http://www.rse-web.it/documenti/documento/318553\" target=\"_blank\">Rapporto RSE 18007806 - Atlante Integrato per il Sistema Energetico Nazionale e le fonti rinnovabili (ai:SEN)</a></p>",
             "url": "http://gis2.rse-web.it:8080/geoserver/wms",
             "dataCustodian": "text",
             "dataUrlType": "direct",
             "dataUrl": "text",
-            "availableStyles":{"name":"popolazione_regionale", "title":"popolazione residente regionale (N)"},
-            "parameters":{"cql_filter":"var_id=88"},
-            "styles":"popolazione_regionale",
+            "availableStyles":{"name":"autosuff", "title":"Indice di autosufficienza"},
+            "styles":"autosuff",
             "info": [
               {
                 "name": "Licence",
@@ -837,6 +1102,33 @@
             ]
           }
         ]
-    }
+      },
+      {
+        "name": "stime energetiche",
+        "type": "group",
+        "preserveOrder": true,
+        "isOpen": false,
+        "description": "riporta il calcolo dal coefficiente di autoconsumo comunale",
+        "items": [
+          {
+            "layers": "new_atlante_integrato:v_comuni_consumi",
+            "name": "Indice di autosufficienza",
+            "type": "wms",
+            "description": "Indice di autosufficienza. Rapporto tra produzione FER comunale e consumi elettrici comunali. Anno 2015, MT e BT. Riferimento rapporto atlante integrato.\n\n <a href=\"http://www.rse-web.it/documenti/documento/318553\" target=\"_blank\">Rapporto RSE 18007806 - Atlante Integrato per il Sistema Energetico Nazionale e le fonti rinnovabili (ai:SEN)</a></p>",
+            "url": "http://gis2.rse-web.it:8080/geoserver/wms",
+            "dataCustodian": "text",
+            "dataUrlType": "direct",
+            "dataUrl": "text",
+            "availableStyles":{"name":"autosuff", "title":"Indice di autosufficienza"},
+            "styles":"autosuff",
+            "info": [
+              {
+                "name": "Licence",
+                "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+              }
+            ]
+          }
+        ]
+      }
     ]
 }
