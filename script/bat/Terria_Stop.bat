@@ -1,1 +1,1 @@
-pm2 stop all
+C:\TerriaMap\node_modules\.bin\pm2 stop all
