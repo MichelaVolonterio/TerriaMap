@@ -3,7 +3,7 @@ Class=IEXPRESS
 SEDVersion=3
 [Options]
 PackagePurpose=InstallApp
-ShowInstallProgramWindow=0
+ShowInstallProgramWindow=1
 HideExtractAnimation=1
 UseLongFileName=1
 InsideCompressed=0
@@ -26,7 +26,7 @@ DisplayLicense=
 FinishMessage=Terria start
 TargetName=C:\Users\Lorenzo\Documents\GitHub\TerriaMap\script\exe\Terria_Start.EXE
 FriendlyName=Terria_start
-AppLaunched=cmd \c Terria_Start.bat
+AppLaunched=cmd /c Terria_Start.bat
 PostInstallCmd=<None>
 AdminQuietInstCmd=
 UserQuietInstCmd=

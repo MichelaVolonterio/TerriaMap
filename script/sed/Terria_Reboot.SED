@@ -3,7 +3,7 @@ Class=IEXPRESS
 SEDVersion=3
 [Options]
 PackagePurpose=InstallApp
-ShowInstallProgramWindow=0
+ShowInstallProgramWindow=1
 HideExtractAnimation=1
 UseLongFileName=1
 InsideCompressed=0
@@ -26,7 +26,7 @@ DisplayLicense=
 FinishMessage=Terria reboot
 TargetName=C:\Users\Lorenzo\Documents\GitHub\TerriaMap\script\exe\Terria_Reboot.EXE
 FriendlyName=Terria_reboot
-AppLaunched=cmd \c Terria_Reboot.bat
+AppLaunched=cmd /c Terria_Reboot.bat
 PostInstallCmd=<None>
 AdminQuietInstCmd=
 UserQuietInstCmd=

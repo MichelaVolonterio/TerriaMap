@@ -3,7 +3,7 @@ Class=IEXPRESS
 SEDVersion=3
 [Options]
 PackagePurpose=InstallApp
-ShowInstallProgramWindow=0
+ShowInstallProgramWindow=1
 HideExtractAnimation=1
 UseLongFileName=1
 InsideCompressed=0
@@ -26,7 +26,7 @@ DisplayLicense=
 FinishMessage=pm2 installed
 TargetName=C:\Users\Lorenzo\Documents\GitHub\TerriaMap\script\exe\Terria_pm2_install.EXE
 FriendlyName=pm2_install
-AppLaunched=cmd \c Terria_pm2_install.bat
+AppLaunched=cmd /c Terria_pm2_install.bat
 PostInstallCmd=<None>
 AdminQuietInstCmd=
 UserQuietInstCmd=
