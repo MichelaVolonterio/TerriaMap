@@ -43,7 +43,7 @@ export default function UserInterface(props) {
           key="about-link"
         />
         <MenuItem
-          caption="sankey"
+          caption="WEN"
           href="http://atlanteintegrato.rse-web.it/sankey.php"
           key="about-link"
         />
