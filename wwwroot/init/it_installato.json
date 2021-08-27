@@ -7,14 +7,14 @@
     },
     "catalog": [
       {
-        "name": "installato",
+        "name": "impianti",
         "type": "group",
         "preserveOrder": true,
         "isOpen": false,
         "description": "comprende i dati regionali e provinciali relativi al parco produttivo",
         "items": [
           {
-            "name": "eolica",
+            "name": "eolici",
             "type": "group",
             "preserveOrder": true,
             "isOpen": false,
@@ -216,7 +216,7 @@
             ]
           },
           {
-            "name": "idroelettrica",
+            "name": "idroelettrici",
             "type": "group",
             "preserveOrder": true,
             "isOpen": false,
@@ -504,7 +504,7 @@
             ]
           },
           {
-            "name": "fotovoltaica",
+            "name": "fotovoltaici",
             "type": "group",
             "preserveOrder": true,
             "isOpen": false,
@@ -627,7 +627,7 @@
             ]
           },
           {
-            "name": "geotermico",
+            "name": "geotermici",
             "type": "group",
             "preserveOrder": true,
             "isOpen": false,
