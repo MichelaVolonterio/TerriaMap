@@ -3,8 +3,11 @@
     initializationUrls: [
         "it_cartografia",
         "it_dati_territoriali",
+        "it_infrastrutture",
         "it_risorsa",
-        "it_installato"
+        "it_installato",
+        "it_consumi",
+        "it_stime_energetiche"
     ],
     parameters: {
         googleUrlShortenerKey: null,
