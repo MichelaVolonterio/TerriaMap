@@ -26,12 +26,12 @@
             "opacity": 1.0,
             "isPromoted": true,
             "availableStyles": {
-              "name":"polygon", 
+              "name":"polygon",
               "title":"Potenza totale effettiva installata regionale"
             },
             "styles": "polygon",
             "featureInfoTemplate": {
-                "template": "<p>Apri <a href='http://localhost:5000/anno={{anno}}&prov={{den_uts}}'>TOTEMWEB</a> per la provincia di <b>{{den_uts}}</b> per l'anno <b>{{anno}}</b></p><p>Se l'informazione è sbagliata cambia l'anno o seleziona un'altra provincia</p>"
+                "template": "<p>Apri <a href='http://localhost:5000/?anno={{anno}}&prov={{den_uts}}'>TOTEMWEB</a> per la provincia di <b>{{den_uts}}</b> per l'anno <b>{{anno}}</b></p><p>Se l'informazione è sbagliata cambia l'anno o seleziona un'altra provincia</p>"
             }
         }
     ]
