@@ -27,6 +27,13 @@ function Multienergy(props) {
       });
   }
 
+  // to select language config.json depending on the browser language
+  var userLang = navigator.language || navigator.userLanguage;
+  var totem_link = "/#en_totemweb";
+  if (userLang === "it-IT" || userLang === "it") {
+    totem_link = "/#it_totemweb";
+  }
+
   return (
     <MenuPanel
       theme={dropdownTheme}
@@ -40,6 +47,12 @@ function Multienergy(props) {
       </div>
 
       <p>testo che spiega dove stai per essere reindirizzato</p>
+
+      <p>
+        <a className={Styles.link} href={totem_link}>
+          Apri la selezione della provincia per TOTEMWEB in TerriaMap
+        </a>
+      </p>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
         <a target="_blank" href="http://atlanteintegrato.rse-web.it/">
