@@ -9391,10 +9391,10 @@ terriajs-schema@latest:
     when "^3.7.7"
     yargs "^3.32.0"
 
-terriajs-server@^3.0.1:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/terriajs-server/-/terriajs-server-3.1.0.tgz#373738885b1a55ef1a1459b5e74a7e6a1de316a4"
-  integrity sha512-vamuDCbvX/p96dRJhQ6Q1ZPmQNDj5voVs/1mTiwDV82aoBqfVxmiKxoy3/hr+0nM9KjjKdS8z665mTJV6QXu7g==
+terriajs-server@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/terriajs-server/-/terriajs-server-3.3.3.tgz#71104f9f0a12e3f1a881d5e1f5726a407f2a7867"
+  integrity sha512-2NWGEJZrv35peLI1mJvCdSBrP7a9OBuXIdxEZrxgbyu6PmlHF7C99hacVq907wCPjfRYw1RHNDaKa/RfeGPq2g==
   dependencies:
     aws-sdk "^2.456.0"
     base-x "^3.0.5"
